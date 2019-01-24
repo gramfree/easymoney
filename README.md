@@ -1,0 +1,2 @@
+# easymoney
+GitHub Pages
