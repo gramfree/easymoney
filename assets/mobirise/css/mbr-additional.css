@@ -1381,9 +1381,32 @@ body {
     flex: auto!important;
   }
 }
+.cid-rgcFxC90h7 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rgcFxC90h7 [class^="socicon-"]:before,
+.cid-rgcFxC90h7 [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-rgcFxC90h7 .btn-social {
+  border-color: #149dcc;
+}
+.cid-rgcFxC90h7 .btn-social:hover {
+  background: #149dcc;
+}
+.cid-rgcFxC90h7 .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+@media (max-width: 767px) {
+  .cid-rgcFxC90h7 .btn {
+    font-size: 20px !important;
+  }
+}
 .cid-rgcEG8geyW {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-rgcEG8geyW .socicon-bg-facebook {
