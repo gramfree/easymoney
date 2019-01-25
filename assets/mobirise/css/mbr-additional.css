@@ -1381,6 +1381,20 @@ body {
     flex: auto!important;
   }
 }
+.cid-rgcC3DkP67 {
+  background: #efefef;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #efefef, #767676);
+}
+.cid-rgcC3DkP67 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rgcC3DkP67 .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rg4xqPFo2q {
   background-image: url("../../../assets/images/background3.jpg");
 }
