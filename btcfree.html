@@ -1,0 +1,42 @@
+<div id="player"></div>
+
+<script src="http://www.youtube.com/player_api"></script>
+
+<script>
+    // create youtube player
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'l8znFknUO4c',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+    }
+
+    // autoplay video
+    function onPlayerReady(event) {
+        event.target.playVideo();
+    }
+
+    // when video ends
+    function onPlayerStateChange(event) {        
+        if(event.data === 0) {
+// load a new page
+window.location = 'https://btcexch.net/?ref=228';
+}
+};
+function addListeners() {
+if (player) { player.addModelListener("STATE", "stateMonitor"); } 
+else { setTimeout("addListeners()",100); }
+}
+var s1 = new SWFObject('player.swf','ply','470','320','9','#ffffff');
+s1.addParam('allowfullscreen','false');
+s1.addParam('allowscriptaccess','always');
+s1.addParam('flashvars','file=http://uk.youtube.com/watchl8znFknUO4c&autostart=true');
+s1.write('mediaspace');
+    
+</script>
